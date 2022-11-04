@@ -1,5 +1,6 @@
-import MyCounter from "./components/MyCounter";
-import MyGitHub from "./components/MyGitHub";
+import React from 'react';
+import MyCounter from './components/MyCounter';
+import MyGitHub from './components/MyGitHub';
 
 function App() {
   return (
@@ -14,9 +15,7 @@ function App() {
       <hr />
       <MyCounter incBy = {1} /><hr />
       <MyCounter incBy = {2} /><hr />
-      <MyCounter decBy = {3} /><hr />
       <MyGitHub /><hr />
-
     </div>
   );
 }

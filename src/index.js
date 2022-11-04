@@ -6,4 +6,7 @@ import MyGitHub from './components/MyGitHub';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <><App /><MyCounter /><MyGitHub /></>);
+    <><App />
+    <MyCounter />
+    <MyGitHub />
+    </>);
